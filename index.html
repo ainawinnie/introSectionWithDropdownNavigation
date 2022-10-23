@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <!--JS-->
+  <script src="./JS/script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+
+    <header>
+      <img src="./images/logo.svg" alt="" class="logo">
+
+      <div class="menu">
+        <div class="submenu">
+          <div class="features-menu" id="features">
+            <span class="features">Features</span>
+            <img src="./images/icon-arrow-down.svg" alt="" class="open-menu arrow">
+            <img src="./images/icon-arrow-up.svg" alt="" class="close-menu hide arrow">
+          </div>
+          <div class="company-menu" id="company">
+            <span class="company">Company</span>
+            <img src="./images/icon-arrow-down.svg" alt="" class="open-menu arrow">
+            <img src="./images/icon-arrow-up.svg" alt="" class="close-menu hide arrow">
+          </div>
+          <span class="careers">Careers</span>
+          <span class="about">About</span>
+        </div>
+      </div>
+        
+
+      <div class="account-options">
+        <span class="login">Login</span>
+        <span class="register">Register</span>
+      </div>
+      
+    </header>
+    
+    <div class="main-content">
+      <div class="information">
+        <h1 class="headline">Make remote work</h1>
+        <p class="description">Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="more">Learn more</button>
+        <div class="options">
+          <img src="./images/client-databiz.svg" alt="" class="databiz">
+          <img src="./images/client-audiophile.svg" alt="" class="audiophile">
+          <img src="./images/client-meet.svg" alt="" class="meet">
+          <img src="./images/client-maker.svg" alt="" class="maker">
+        </div>
+      </div>
+      <img src="./images/image-hero-desktop.png " alt="" class="side-img">
+    </div>
+
+    <div class="feature-open-menu hide" id="feature-menu">
+      <div class="todo-list menu-items">
+        <img src="./images/icon-todo.svg" alt="" class="todo-list-img">
+        <span class="todo-list-description">Todo list</span>
+      </div>
+      <div class="calendar menu-items">
+        <img src="./images/icon-calendar.svg" alt="" class="calendar-img">
+        <span class="calendar-description">Calendar</span>
+      </div>
+      <div class="reminder menu-items">
+        <img src="./images/icon-reminders.svg" alt="" class="reminder-img">
+        <span class="reminder-description">Reminder</span>
+      </div>
+      <div class="planning menu-items">
+        <img src="./images/icon-planning.svg" alt="" class="planning-img">
+        <span class="planning-description">Planning</span>
+      </div>
+    </div>
+
+    <div class="company-open-menu hide" id="company-menu">
+      <div class="history">
+        <span class="description">History</span>
+      </div>
+      <div class="our-team">
+        <span class="description">Our team</span>
+      </div>
+      <div class="blog">
+        <span class="description">Blog</span>
+      </div>
+    </div>
+
+  </main>
+  
+</body>
+</html>
